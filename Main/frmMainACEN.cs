@@ -30,18 +30,15 @@ namespace QuanLyMuaBanHanghoa
             login.ShowDialog();
 
 
-
-
-
         }
 
         private void ThoatTSMI_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Bạn có chắc muốn thoát chương trình không?", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
-            {
-                return;
+            //if (MessageBox.Show("Bạn có chắc muốn thoát chương trình không?", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
+            //{
+            //    return;
                 
-            }
+            //}
             Application.Exit();
 
         }
