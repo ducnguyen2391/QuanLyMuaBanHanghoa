@@ -53,9 +53,9 @@
             this.groupBoxDangNhap.Controls.Add(this.btn_frmDN_Thoat);
             this.groupBoxDangNhap.Controls.Add(this.btnDangNhap);
             this.groupBoxDangNhap.Location = new System.Drawing.Point(64, 15);
-            this.groupBoxDangNhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxDangNhap.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxDangNhap.Name = "groupBoxDangNhap";
-            this.groupBoxDangNhap.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxDangNhap.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxDangNhap.Size = new System.Drawing.Size(531, 242);
             this.groupBoxDangNhap.TabIndex = 0;
             this.groupBoxDangNhap.TabStop = false;
@@ -64,7 +64,7 @@
             // 
             this.cboxremember.AutoSize = true;
             this.cboxremember.Location = new System.Drawing.Point(128, 135);
-            this.cboxremember.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboxremember.Margin = new System.Windows.Forms.Padding(4);
             this.cboxremember.Name = "cboxremember";
             this.cboxremember.Size = new System.Drawing.Size(111, 20);
             this.cboxremember.TabIndex = 3;
@@ -75,7 +75,7 @@
             // txtMatkhau
             // 
             this.txtMatkhau.Location = new System.Drawing.Point(128, 80);
-            this.txtMatkhau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMatkhau.Margin = new System.Windows.Forms.Padding(4);
             this.txtMatkhau.Multiline = true;
             this.txtMatkhau.Name = "txtMatkhau";
             this.txtMatkhau.PasswordChar = '*';
@@ -85,7 +85,7 @@
             // txtTaikhoan
             // 
             this.txtTaikhoan.Location = new System.Drawing.Point(128, 41);
-            this.txtTaikhoan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTaikhoan.Margin = new System.Windows.Forms.Padding(4);
             this.txtTaikhoan.Name = "txtTaikhoan";
             this.txtTaikhoan.Size = new System.Drawing.Size(276, 22);
             this.txtTaikhoan.TabIndex = 1;
@@ -113,7 +113,7 @@
             // btn_frmDN_Thoat
             // 
             this.btn_frmDN_Thoat.Location = new System.Drawing.Point(324, 186);
-            this.btn_frmDN_Thoat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_frmDN_Thoat.Margin = new System.Windows.Forms.Padding(4);
             this.btn_frmDN_Thoat.Name = "btn_frmDN_Thoat";
             this.btn_frmDN_Thoat.Size = new System.Drawing.Size(100, 28);
             this.btn_frmDN_Thoat.TabIndex = 5;
@@ -124,7 +124,7 @@
             // btnDangNhap
             // 
             this.btnDangNhap.Location = new System.Drawing.Point(201, 186);
-            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(100, 28);
             this.btnDangNhap.TabIndex = 4;
@@ -138,12 +138,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(612, 334);
             this.Controls.Add(this.groupBoxDangNhap);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thông tin đăng nhập";
-           this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmDangNhap_FormClosed);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmDangNhap_FormClosed);
             this.Load += new System.EventHandler(this.frmDangNhap_Load);
+            this.Enter += new System.EventHandler(this.btnDangNhap_Click);
             this.groupBoxDangNhap.ResumeLayout(false);
             this.groupBoxDangNhap.PerformLayout();
             this.ResumeLayout(false);

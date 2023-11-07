@@ -51,17 +51,19 @@
             this.panelctrkh.Controls.Add(this.USbtnthem);
             this.panelctrkh.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelctrkh.Location = new System.Drawing.Point(0, 0);
+            this.panelctrkh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelctrkh.Name = "panelctrkh";
-            this.panelctrkh.Size = new System.Drawing.Size(905, 47);
+            this.panelctrkh.Size = new System.Drawing.Size(1212, 58);
             this.panelctrkh.TabIndex = 0;
             // 
             // USbtnXoa
             // 
             this.USbtnXoa.Image = ((System.Drawing.Image)(resources.GetObject("USbtnXoa.Image")));
             this.USbtnXoa.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.USbtnXoa.Location = new System.Drawing.Point(262, 14);
+            this.USbtnXoa.Location = new System.Drawing.Point(349, 17);
+            this.USbtnXoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.USbtnXoa.Name = "USbtnXoa";
-            this.USbtnXoa.Size = new System.Drawing.Size(75, 23);
+            this.USbtnXoa.Size = new System.Drawing.Size(100, 28);
             this.USbtnXoa.TabIndex = 0;
             this.USbtnXoa.Text = "Xóa";
             this.USbtnXoa.UseVisualStyleBackColor = true;
@@ -70,9 +72,10 @@
             // 
             this.USbtnSua.Image = ((System.Drawing.Image)(resources.GetObject("USbtnSua.Image")));
             this.USbtnSua.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.USbtnSua.Location = new System.Drawing.Point(181, 14);
+            this.USbtnSua.Location = new System.Drawing.Point(241, 17);
+            this.USbtnSua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.USbtnSua.Name = "USbtnSua";
-            this.USbtnSua.Size = new System.Drawing.Size(75, 23);
+            this.USbtnSua.Size = new System.Drawing.Size(100, 28);
             this.USbtnSua.TabIndex = 0;
             this.USbtnSua.Text = "Sửa";
             this.USbtnSua.UseVisualStyleBackColor = true;
@@ -81,9 +84,10 @@
             // 
             this.USbtnxem.Image = ((System.Drawing.Image)(resources.GetObject("USbtnxem.Image")));
             this.USbtnxem.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.USbtnxem.Location = new System.Drawing.Point(100, 14);
+            this.USbtnxem.Location = new System.Drawing.Point(133, 17);
+            this.USbtnxem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.USbtnxem.Name = "USbtnxem";
-            this.USbtnxem.Size = new System.Drawing.Size(75, 23);
+            this.USbtnxem.Size = new System.Drawing.Size(100, 28);
             this.USbtnxem.TabIndex = 0;
             this.USbtnxem.Text = "Xem";
             this.USbtnxem.UseVisualStyleBackColor = true;
@@ -92,9 +96,10 @@
             // 
             this.USbtnthem.Image = ((System.Drawing.Image)(resources.GetObject("USbtnthem.Image")));
             this.USbtnthem.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.USbtnthem.Location = new System.Drawing.Point(19, 14);
+            this.USbtnthem.Location = new System.Drawing.Point(25, 17);
+            this.USbtnthem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.USbtnthem.Name = "USbtnthem";
-            this.USbtnthem.Size = new System.Drawing.Size(75, 23);
+            this.USbtnthem.Size = new System.Drawing.Size(100, 28);
             this.USbtnthem.TabIndex = 0;
             this.USbtnthem.Text = "Thêm";
             this.USbtnthem.UseVisualStyleBackColor = true;
@@ -111,10 +116,11 @@
             this.ClSdt});
             this.gridviewListKh.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridviewListKh.Enabled = false;
-            this.gridviewListKh.Location = new System.Drawing.Point(0, 47);
+            this.gridviewListKh.Location = new System.Drawing.Point(0, 58);
+            this.gridviewListKh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gridviewListKh.Name = "gridviewListKh";
             this.gridviewListKh.RowHeadersWidth = 51;
-            this.gridviewListKh.Size = new System.Drawing.Size(905, 469);
+            this.gridviewListKh.Size = new System.Drawing.Size(1212, 577);
             this.gridviewListKh.TabIndex = 1;
             this.gridviewListKh.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridviewListKh_CellContentClick);
             // 
@@ -148,13 +154,14 @@
             // 
             // US_KhachHangList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.gridviewListKh);
             this.Controls.Add(this.panelctrkh);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "US_KhachHangList";
-            this.Size = new System.Drawing.Size(905, 516);
+            this.Size = new System.Drawing.Size(1212, 635);
             this.panelctrkh.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridviewListKh)).EndInit();
             this.ResumeLayout(false);

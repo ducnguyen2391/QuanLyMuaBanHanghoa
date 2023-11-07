@@ -34,11 +34,7 @@ namespace QuanLyMuaBanHanghoa
 
         private void ThoatTSMI_Click(object sender, EventArgs e)
         {
-            //if (MessageBox.Show("Bạn có chắc muốn thoát chương trình không?", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
-            //{
-            //    return;
-                
-            //}
+            
             Application.Exit();
 
         }
@@ -48,8 +44,6 @@ namespace QuanLyMuaBanHanghoa
             if (MessageBox.Show("Bạn có chắc muốn thoát chương trình không?", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
             {
                 e.Cancel = true;
-
-                
             }
 
         }
@@ -68,12 +62,6 @@ namespace QuanLyMuaBanHanghoa
             newtab.Controls.Add(uS_KhachHang);
 
             tabBanLamViec.Controls.Add(newtab);
-
-
-
-
-
-
 
         }
 
@@ -94,8 +82,6 @@ namespace QuanLyMuaBanHanghoa
             newtabmuahang.Controls.Add(uS_MuahangList);
 
             tabBanLamViec.Controls.Add(newtabmuahang);
-
-
 
         }
 
